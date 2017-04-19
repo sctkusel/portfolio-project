@@ -12,10 +12,20 @@ module.exports = function(grunt) {
             suffix: "-2x"
           },
           {
+            name: "large",
+            width: 1600,
+            quality: 50,
+            suffix: "-1x"
+          },
+          {
             name: "medium",
             width: 1170,
-            quality: 70,
-            suffix: "-1x"
+            quality: 40,
+          },
+          {
+            name: "small",
+            width: 500,
+            quality: 30,
           }]
         },
         files: [{
