@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+.align-left {
+  text-align: left;
+}
+
 .logo {
   margin-top: 20px;
   width: 100px;
@@ -20,4 +24,98 @@ body {
 
 .separator {
   border-top: 3px solid #7d97ad;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2d3c49;
+  color: #fff;
+  height: 60px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.icon.circle {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 1.20em;
+    height: 2.20em;
+    line-height: 2.25em;
+    text-align: center;
+    text-decoration: none;
+    width: 2.20em;
+    margin: 0.8em 0.4em 0;
+}
+
+.icon {
+    text-decoration: none;
+    position: relative;
+}
+
+.icon.circle.fa-linkedin:hover {
+    background: #4F90BE;
+}
+
+.icon.circle.fa-linkedin {
+    background: #006fa6;
+    color: #fff;
+}
+
+.icon.circle.fa-github:hover {
+    background: #d19e6f;
+}
+
+.icon.circle.fa-github {
+    background: #d26911;
+    color: #fff;
+}
+
+.icon.circle.fa-facebook:hover {
+    background: #829bc9;
+}
+
+.icon.circle.fa-facebook {
+    background: #365899;
+    color: #fff;
+}
+
+.icon.circle:hover {
+    top: -0.2em;
+}
+
+.icon>.label {
+    display: none;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
