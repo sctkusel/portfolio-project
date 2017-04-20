@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
-
 body {
   font-family: "Lato", sans-serif;
   color: #2d3c49;
+}
+
+div.row {
+  margin: 0;
 }
 
 a {
@@ -14,6 +16,12 @@ a:hover {
   text-decoration: none;
   color: #2d3c49;
 
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  background-color: #2d3c49;
 }
 
 .text-muted {
@@ -71,6 +79,7 @@ a:hover {
 .footer {
   background-color: #2d3c49;
   color: #fff;
+  margin: 0;
 }
 
 .copyright {

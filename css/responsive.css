@@ -12,7 +12,11 @@
     }
 
     .featured-work {
-        font-size: 25px;
+      font-size: 25px;
+    }
+
+    .title-project {
+      font-size: 2.5em;
     }
 }
 
