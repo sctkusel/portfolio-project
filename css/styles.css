@@ -1,7 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
 
 body {
   font-family: "Lato", sans-serif;
+  color: #2d3c49;
+}
+
+a {
+  text-decoration: none;
+  color: #7d97ad;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2d3c49;
+
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.title-main {
+  font-weight: 100;
+  font-size: 4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title-project {
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.featured-work {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.separator {
+  border-top: 3px solid #7d97ad;
+}
+
+.project-descr {
+  margin: 10px 0 30px;
 }
 
 /*Alignment classes*/
@@ -17,23 +67,13 @@ body {
   text-align: left;
 }
 
-.logo {
-  margin-top: 20px;
-  width: 100px;
-}
-
-.separator {
-  border-top: 3px solid #7d97ad;
-}
-
 /*Footer*/
 .footer {
   background-color: #2d3c49;
   color: #fff;
-  height: 60px;
 }
 
-p {
+.copyright {
   margin: 20px 0;
 }
 
